@@ -33,3 +33,12 @@ Start: Fri, 24 Apr 2015 16:45:00 -0500
 End: Fri, 24 Apr 2015 17:00:00 -0500 
 Tasks: Began part 2, wrote initial html frame and css
 
+Start: Sat, Apr 25 07:37:00 2015 -0500
+End: Sat, Apr 25 07:59:18 2015 -0500
+Tasks: Set up repository, and pushed initial files
+
+Start: Sat, Apr 25 09:10:00 2015 -0500
+End: Sat, Apr 25 10:24:22 2015 -0500
+Tasks: initial work on javascript file- got something back from gist request.
+
+

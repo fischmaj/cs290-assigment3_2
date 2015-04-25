@@ -1,8 +1,11 @@
 
 window.onload= function() {
   console.log('window.onload running');
-  var GistArray = [];
-  localStorage.setItem('GistArray', JSON.stringify(GistArray));
+  var settingsStr = localStorage.getItem('userSettings');
+  if (true){
+      settingsStr = { favsArray:[], allGistsArray:[]};
+      localStorage.setItem('userSettings', JSON.stringify(settingsStr));
+  }
 }
 
 
@@ -29,15 +32,32 @@ function getGists(){
 
     console.log('pages =' + pages);
 
-    url = url+'?page='+pages+'&per_page=30';
-    /*    
+    url = url+'?page='+pages+'&per_page=3';
+ 
     //when the request is fulfilled
     req.onreadystatechange = function(){
-	var gistList = JSON.parse(this.responseText);
-	console.log(gistList);
+	if(req.readyState == 4){
 
+	  //load the XMLHttpRequest response into a variable 
+	  var gistList = JSON.parse(this.responseText);
+
+	  //load the local storage variable
+          var userSettings = JSON.parse(localStorage.getItem('userSettings'));
+	  console.log (userSettings);
+	  userSettings["allGistsArray"] = gistList;
+	  localStorage.setItem('userSettings', JSON.stringify(userSettings));
+
+	  console.log(userSettings['allGistsArray']);
+	}
     }
     req.open('GET', url);
     req.send();
-    */
+
+    displayGists();
+}
+
+
+//
+function displayGists(){
+
 }
