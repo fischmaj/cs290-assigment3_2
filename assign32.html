@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Gist Viewer</title>
+  <script type = "text/javascript" src = "gist.js"></script>
+  <link href = "./Gistviewer.css" rel = "stylesheet" type = "text/css"/>
+</head>
+<body>
+  <H1>Jeremy's GIST viewer</H1>
+
+<!--  HTML for the language picker and Gists per page form -->
+
+  <form>
+    <div>
+    <div id="language_picker">
+      <input type ="checkbox" name ="Python" value="Python">Python</input>
+      <input type ="checkbox" name ="Ruby" value="Ruby">Ruby</input>
+      <input type ="checkbox" name ="SQL" value="SQL">SQL</input>
+      <input type ="checkbox" name ="JavaScript" 
+	     value="JavaScript">JavaScript</input>
+      <input type ="checkbox" name ="JSON" value="JSON">JSON</input>
+    </div>
+
+
+    <div id = "num_per_page">
+      Number Per Page:
+      <input type ="number" name ="numPerPage" 
+	     value=30></input>
+      <br>
+      <input type ="button" value ="Refresh Gists" onclick = "getGists()">
+    </div>
+    </div>
+
+    <div id = "Gist_received"></div>
+    <div id = "Gist_favorite"></div>
+  </form
+</body>

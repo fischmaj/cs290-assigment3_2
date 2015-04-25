@@ -1,0 +1,35 @@
+
+Start: Wed, 15 Apr 2015 16:15:00 -0500
+End: Wed, 15 Apr 2015 17:16:42 -0500
+Tasks:  Spent about an hour trying to clone the cs290osu git repository and push to my own
+repo.  Had some issues with piazza message instructions, eventually figured it out. 
+
+Start: Wed, 15 Apr 2015 17:45:00 -0500
+End: Wed, 15 Apr 2015 18:18:54 -0500
+Tasks: Completed variables.js (qunit tests all pass) and halfway through functions.js 
+(through doubleArray)
+
+Start: Wed, 15 Apr 2015 21:00:00 -0500
+End: Wed, 15 Apr 2015 21:26:20 -0500
+Tasks: Skipped functions.js and instead got returnObjectLiteral working.  
+
+Start: Wed, 15 Apr 2015 23:00:00 -0500
+End: Thu, 16 Apr 2015 00:03:27 -0500 
+Tasks: Finished functions.js
+
+Start: Thu, 16 Apr 2015 17:25:00 -0500
+End: Thu, Apr 16 18:12:19 2015 -0500
+Tasks: completed MessageLog in objects.js
+
+Start: Fri, 17 Apr 2015 14:55:00 -0500
+End: Fri, 17 Apr 2015 15:27:02 -0500
+Tasks: Finished objects.js and ran through jslint.com
+
+Start: Fri, 17 Apr 2015 17:45:00 -0500 
+End: Fri, 17 Apr 2015 18:28:28 -0500 
+Tasks: researched, downloaded, and installed gjslint, and re-linted. 
+
+Start: Fri, 24 Apr 2015 16:45:00 -0500 
+End: Fri, 24 Apr 2015 17:00:00 -0500 
+Tasks: Began part 2, wrote initial html frame and css
+
