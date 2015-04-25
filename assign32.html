@@ -7,8 +7,7 @@
 <body>
   <H1>Jeremy's GIST viewer</H1>
 
-<!--  HTML for the language picker and Gists per page form -->
-
+<!--  HTML for the language picker and Gists per page form (header at top) -->
   <form>
     <div>
     <div id="language_picker">
@@ -30,7 +29,18 @@
     </div>
     </div>
 
-    <div id = "Gist_received"></div>
-    <div id = "Gist_favorite"></div>
+
+<!-- HTML for the results display in two columns -->
+    
+    <br><br><br>
+    <div id = "Gist_received">
+      <div id = "Gist_received_header">New Public Gists</div>
+      <div id = "Gist_search_results"></div>
+    </div>
+
+    <div id = "Gist_favorite">
+      <div id = "Gist_favorite_header">My Favorite Gists</div>
+      <div id = "Gist_favorite_results"></div>
+    </div>
   </form
 </body>

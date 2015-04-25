@@ -20,9 +20,26 @@ color: #FFFFFF;
 H1 {
 margin-left: auto;
 margin-right: auto;
-width: 20%;
-background-color: #0000FF;
-color: #FFFFFF;
+width: 40%;
+color: #0000FF;
 
 text-align: center;
+}
+
+#Gist_received {
+float: left;
+margin-left: 1px;
+width: 49%;
+height: auto;
+}
+
+#Gist_favorite {
+float: left;
+margin-left: 1px;
+width: 50%;
+height: auto;
+}
+
+#resultDiv {
+background-color: #00FF00;
 }
