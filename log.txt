@@ -50,7 +50,13 @@ End: Sat, 25 Apr 2015 17:59:11 -0500
 Tasks: got new divs to appear on the HTML after the gist query, with links.
 
 Start: Sun, 26 Apr 2015 10:10:00 -0500
-End: Sun, 26Apr 2015 12:12:43 -0500
+End: Sun, 26 Apr 2015 12:12:43 -0500
 Tasks: Got favorites to remove from left side, and appear in favorites column. 
 
+Start: Sun, 26 Apr 2015 12:30:00 -0500
+End: Sun, 26 Apr 2015 14:30:00 -0500
+Tasks: Various debugging, got favorites removal feature partially working, still with bugs. 
 
+Start: Sun, 26 Apr 2015 18:00:00 -0500
+End: Sun, 26 Apr 2015 18:46:35 -0500
+Tasks: Finalized as much debugging as I can do on this project.  Got pagination working, but language selection is not implemented.  Calling it complete. 
