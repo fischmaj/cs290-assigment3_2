@@ -1,17 +1,17 @@
 #language_picker {
 float: left;
-margin-left: 1px;
-height: 50px; 
-width: 49%;
+margin-left: 0px;
+height: 70px; 
+width: 50%;
 background-color: #0000FF;
 color: #FFFFFF;
 }
 
 #num_per_page {
-text-align: right;
+text-align: left;
 float: left;
-margin-left: 1px;
-height: 50px;
+margin-left: 0px;
+height: 70px;
 width: 50%; 
 background-color: #0000FF;
 color: #FFFFFF;
@@ -22,8 +22,11 @@ margin-left: auto;
 margin-right: auto;
 width: 40%;
 color: #0000FF;
-
 text-align: center;
+}
+
+H2 {
+color:#FF0000;
 }
 
 #Gist_received {

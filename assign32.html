@@ -17,15 +17,31 @@
       <input type ="checkbox" name ="JavaScript" 
 	     value="JavaScript">JavaScript</input>
       <input type ="checkbox" name ="JSON" value="JSON">JSON</input>
+      <h2>Language Functions still under development</h2>
     </div>
 
 
     <div id = "num_per_page">
+      View Page:
+      <input type = "radio" name = "page#" value = 1 checked 
+	     onchange="displayGists()">1</input>
+      <input type = "radio" name = "page#" value = 2 
+	     onchange="displayGists()">2</input>
+      <input type = "radio" name = "page#" value = 3 
+             onchange="displayGists()" >3</input>
+      <input type = "radio" name = "page#" value = 4
+	     onchange="displayGists()" >4</input>
+      <input type = "radio" name = "page#" value = 5
+	     onchange="displayGists()" >5</input>
+      <br>
       Number Per Page:
       <input type ="number" name ="numPerPage" 
-	     value=5></input>
+	     value=5 onlosefocus="displayGists()" ></input>
       <br>
-      <input type ="button" value ="Refresh Gists" onclick = "getGists()">
+      <input type ="button" value ="Apply Display Settings" 
+	     onclick = "displayGists()">
+      <input type ="button" value ="Request Gists from Github.com" 
+	     onclick = "getGists()">
     </div>
     </div>
 
