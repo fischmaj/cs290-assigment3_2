@@ -60,3 +60,8 @@ Tasks: Various debugging, got favorites removal feature partially working, still
 Start: Sun, 26 Apr 2015 18:00:00 -0500
 End: Sun, 26 Apr 2015 18:46:35 -0500
 Tasks: Finalized as much debugging as I can do on this project.  Got pagination working, but language selection is not implemented.  Calling it complete. 
+
+Start: Sun, 26 Apr 2015 18:46:35 -0500
+End: Sun, 26 Apr 2015 19:49:25 -0500
+Tasks: copied everything over to engr server, had to fix permissions and
+fix some merge issues, since I was working from 2 locations. 
